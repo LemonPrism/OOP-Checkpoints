@@ -1,6 +1,6 @@
 Mover [] myMovers; 
 
-int n = 100; 
+int n = 10; 
 
 
 void setup (){
@@ -9,7 +9,7 @@ void setup (){
   
   int i = 0 ; 
   while( i<n){
-    
+       
   myMovers[i] = new Mover(); 
   i++;
   
@@ -24,6 +24,7 @@ void draw(){
   
   int i = 0; 
   while ( i< n ){
+  
   myMovers[i].act();
   myMovers[i].show(); 
   i++; 

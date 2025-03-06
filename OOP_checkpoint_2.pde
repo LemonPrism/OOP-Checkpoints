@@ -1,6 +1,6 @@
 Mover [] myMovers; 
 
-int n = 100; 
+int n = 10; 
 
 
 void setup (){
